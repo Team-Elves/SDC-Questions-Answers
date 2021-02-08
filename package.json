@@ -1,0 +1,48 @@
+{
+  "name": "sdc-questions-answers",
+  "version": "1.0.0",
+  "description": "Retrieves and posts questions and answers",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon ./mongoDB/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack -d --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Team-Elves/SDC-Questions-Answers.git"
+  },
+  "author": "Sean Brazil",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Team-Elves/SDC-Questions-Answers/issues"
+  },
+  "homepage": "https://github.com/Team-Elves/SDC-Questions-Answers#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "split2": "^3.2.2",
+    "through2": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@webpack-cli/init": "^1.1.2",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-syntax-dynamic-import": "6.18.0",
+    "css-loader": "^5.0.1",
+    "eslint": "^7.18.0",
+    "html-webpack-plugin": "^4.5.1",
+    "nodemon": "^2.0.7",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2",
+    "workbox-webpack-plugin": "^6.0.2"
+  }
+}
